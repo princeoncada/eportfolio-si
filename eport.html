@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Computer Science Student E-Portfolio</title>
+    <style>
+        /* Simple CSS for layout */
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            line-height: 1.6;
+        }
+
+        .container {
+            width: 80%;
+            margin: auto;
+            overflow: hidden;
+        }
+
+        header {
+            background: #333;
+            color: #fff;
+            padding-top: 30px;
+            min-height: 70px;
+            border-bottom: #0779e4 3px solid;
+        }
+
+        header h1 {
+            text-align: center;
+            margin: 0;
+            padding-bottom: 10px;
+        }
+
+        nav {
+            display: flex;
+            justify-content: space-around;
+            padding: 10px 0;
+            background: #555;
+        }
+
+        nav a {
+            color: #fff;
+            text-decoration: none;
+        }
+
+        section {
+            padding: 20px;
+        }
+
+        img {
+            max-width: 100%;
+            height: auto;
+            border-radius: 0.375rem;
+        }
+
+        .links {
+            display: flex;
+            flex-direction: row;
+            justify-content: space-around;
+        }
+    </style>
+</head>
+
+<body>
+    <header>
+        <div class="container">
+            <h1>Prince Oncada's E-Portfolio</h1>
+        </div>
+    </header>
+    <nav>
+        <div class="container links">
+            <a href="#introduction">Introduction</a>
+            <a href="#technical">Technical Proficiency</a>
+            <a href="#experience">Academic & Work Experience</a>
+            <a href="#projects">Projects</a>
+        </div>
+    </nav>
+    <section id="introduction">
+        <div class="container">
+            <h2>Introduction</h2>
+            <p>Hello! I'm a dedicated Computer Science student at Mapua Malayan Colleges Mindanao, where my passion for technology and innovation shines through in every project I undertake. My academic journey is fueled by a relentless curiosity about the latest technological advancements and a strong desire to apply these innovations to solve real-world problems. Balancing my studies with a role as an Executive Assistant, I've honed my ability to manage my time efficiently, ensuring that I meet both my academic and professional commitments with excellence.</p>
+            <img src="me-intro.jpg" alt="Your Image">
+        </div>
+    </section>
+    <section id="technical">
+        <div class="container">
+            <h2>Technical Proficiency</h2>
+            <br>
+            <img src="lang.jpg" alt="Languages">
+            <h3>Programming Languages</h3>
+            <ul>
+                <li>Java: Proficient in building robust, scalable applications.</li>
+                <li>JavaScript: Skilled in creating dynamic, interactive web pages.</li>
+                <li>Kotlin: Experienced in developing modern, concise, and safe code for various applications.</li>
+                <li>Python: Well-versed in scripting, web scraping, and data processing tasks.</li>
+                <li>HTML: Competent in structuring web content and layout.</li>
+                <li>CSS: Adept at styling web pages for a polished, user-friendly interface.</li>
+            </ul>
+            <br>
+            <br>
+            <img src="stack.jpg" alt="Stack">
+            <h3>Tech Stack</h3>
+            <ul>
+                <li>Spring Boot: Utilized for creating high-performing, easily testable, and reusable code for backend services.</li>
+                <li>FastAPI: Employed for efficient web scraping and backend operations, with a focus on speed and ease of use.</li>
+                <li>jQuery: Applied for simplifying HTML document traversing, event handling, and animation on websites.</li>
+                <li>React: Leveraged for developing user interfaces with a focus on state management and responsive design.</li>
+                <li>Node.js: Used for building scalable network applications.</li>
+                <li>MySQL: Managed data storage and manipulation for web applications.</li>
+            </ul>
+        </div>
+    </section>
+    <section id="experience">
+        <div class="container">
+            <h2>Academic and Work Experience</h2>
+            <p>As a Computer Science student at Mapua Malayan Colleges Mindanao, my academic experience is defined by a continuous pursuit of knowledge in the field of technology. I have consistently demonstrated my interest in my course by engaging deeply with my studies and continuously exploring the latest technologies. My role as an Executive Assistant, alongside my academic endeavors, showcases my ability to maintain a strict balance between work and studies, meeting the demands of both with determination and discipline.</p>
+        </div>
+    </section>
+    <section id="projects">
+        <div class="container">
+            <h2>Projects</h2>
+            <h3>Stock Fundamental Analysis Web Application</h3>
+            <p>Technologies Used: Vite + React, Kotlin Spring Boot, FastAPI with Selenium, MySQL</p>
+            <p>Description: A comprehensive web application designed for stock fundamental analysis, featuring web scraping and data processing capabilities. The application operates across three servers, each dedicated to a specific function: frontend development (Vite+React), backend services (Kotlin Spring Boot), and web scraping (FastAPI using Selenium). A separate server hosts the MySQL database.</p>
+            <p>GitHub Repositories:</p>
+            <ul>
+                <li><a href="https://github.com/princeoncada/se-vite-react-frontend">Frontend: se-vite-react-frontend</a></li>
+                <li><a href="https://github.com/princeoncada/se-spring-boot-backend">Backend: se-spring-boot-backend</a></li>
+                <li><a href="https://github.com/princeoncada/se-fastapi-data-end">Data Processing: se-fastapi-data-end</a></li>
+            </ul>
+            <br>
+            <h3>Loan Approval Machine Learning Model</h3>
+            <p>Technologies Used: Data Mining and Machine Learning Libraries, FastAPI, HTML, CSS, jQuery, AXIOS</p>
+            <p>Description: A comprehensive web application designed for stock fundamental analysis, featuring web scraping and data processing capabilities. The application operates across three servers, each dedicated to a specific function: frontend development (Vite+React), backend services (Kotlin Spring Boot), and web scraping (FastAPI using Selenium). A separate server hosts the MySQL database.</p>
+            <p>GitHub Repositories:</p>
+            <ul>
+                <li><a href="https://github.com/princeoncada/machine-learning-UI">UI: machine-learning-UI</a></li>
+                <li><a href="https://github.com/princeoncada/machine-learning-API">API: machine-learning-API</a></li>
+            </ul>
+
+            <br>
+
+            <h3>Medicine Reminder Device</h3>
+            <p>Technologies Used: C++ Language, Arduino, LEDs, LCD Display, RTC Clock</p>
+            <p>Description: An innovative device crafted to serve as a medicine reminder, utilizing IoT concepts for functionality. It incorporates LEDs, an LCD display, and an RTC clock, all controlled via an Arduino. This project exemplifies the application of IoT principles in creating practical solutions, with plans for future development that include the integration of AI to enhance user experience.</p>
+            <p>Project Link:</p>
+            <ul>
+                <li><a href="https://wokwi.com/projects/391829005234057217">Device Demo: Wokwi Project</a></li>
+            </ul>
+        </div>
+    </section>
+</body>
+
+</html>
